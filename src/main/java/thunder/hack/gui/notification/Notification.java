@@ -118,12 +118,12 @@ public class Notification {
     }
 
     public enum Type {
-        SUCCESS("Success", Formatting.GREEN),
-        INFO("Information", Formatting.AQUA),
-        WARNING("Warning", Formatting.GOLD),
-        ERROR("Error", Formatting.RED),
-        ENABLED("Module enabled", Formatting.DARK_GREEN),
-        DISABLED("Module disabled", Formatting.DARK_RED);
+        SUCCESS("Suckces", Formatting.GREEN),
+        INFO("Info", Formatting.AQUA),
+        WARNING("Ostrzeżenie", Formatting.GOLD),
+        ERROR("Błąd", Formatting.RED),
+        ENABLED("Moduł włączony", Formatting.DARK_GREEN),
+        DISABLED("Moduł wyłączony", Formatting.DARK_RED);
 
         final String name;
         final Formatting color;
